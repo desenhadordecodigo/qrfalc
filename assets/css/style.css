@@ -232,6 +232,12 @@
     letter-spacing: .1rem;
     padding: .8rem 1.4rem;
 }
+.content header{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
 @media screen and (max-width: 1366px){
     .center-content{
         max-width: 100%;
