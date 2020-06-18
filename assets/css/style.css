@@ -246,9 +246,14 @@
 @media screen and (max-width: 1000px){
     .center-information{
         max-width: 100%;
+        padding: 0 1.6rem;
     }
 }
 @media screen and (max-width: 414px){
+    .center-information{
+        max-width: 100%;
+        padding: 0;
+    }
     .content{
         display: flex;
         margin-top: -26px;
