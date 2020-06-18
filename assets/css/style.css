@@ -33,12 +33,35 @@ body[data-nm="true"]{
     filter: grayscale(100%);
 }
 .owl-dots{
-    bottom: 0;
+    bottom: 1rem;
     left: 0;
     position: absolute;
     max-width: 100%;
     width: 100vw;
 }
+.owl-nav{
+    bottom: .2rem;
+    right: 0;
+    display: flex;
+    position: absolute;
+    max-width: 100%;
+    width: min-content;
+}
+.owl-nav button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.owl-nav button span{
+    align-items: center;
+    background-color: var(--blue);
+    color: hsla(0, 0%, 100%, 1);
+    display: flex;
+    border-radius: .4rem;
+    padding: .4rem 1rem .6rem 1rem;
+    justify-content: center;
+}
+
 .banner,
 .list-banner,
 .list-banner li{
@@ -126,7 +149,7 @@ body[data-nm="true"]{
 .content > header .bar-option .list-icons li a{
     color: var(--grey);
     display: flex;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding: .8rem;
     text-decoration: none;
 }
@@ -288,6 +311,7 @@ body[data-nm="true"]{
         margin-left: 0;
         padding: 1.6rem 0;
     }
+    
     .content > header .bar-option .user-name{
         -ms-writing-mode: tb-lr; /* old syntax, IE */
         -webkit-writing-mode: vertical-lr;
@@ -299,6 +323,9 @@ body[data-nm="true"]{
         flex-direction: column;
         margin-top: 1rem;
         margin-left: 0;
+    }
+    .content > header .bar-option .list-icons li a{
+        font-size: 1.8rem;
     }
     .content .infos{
         /* background-color: lime; */
@@ -341,5 +368,11 @@ body[data-nm="true"]{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .owl-nav{
+        bottom: 2rem;
+    }
+    .owl-nav button{
+        margin: 0 .1rem!important;
     }
 }

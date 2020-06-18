@@ -1,7 +1,7 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
-    dots: true,
-    nav:false,
+    dots: false,
+    nav:true,
     items: 1
 });
 
