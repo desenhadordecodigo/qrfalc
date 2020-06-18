@@ -1,3 +1,13 @@
+body[data-nm="true"]{
+    background-color: hsla(0, 0%, 8%, 1);
+}
+[data-nm="true"] .content > header .bar-option .list-icons li a,
+[data-nm="true"] .content .infos .txt p,
+[data-nm="true"] .content .location .location-txt p,
+[data-nm="true"] .qr p{
+    color: hsla(0, 0%, 100%, 1);
+}
+
 [class^="center-"]{
     margin: 0 auto;
     position: relative;
