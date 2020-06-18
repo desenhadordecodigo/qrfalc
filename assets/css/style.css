@@ -1,0 +1,311 @@
+[class^="center-"]{
+    margin: 0 auto;
+    position: relative;
+    width: 100vw;
+}
+.center-content{
+    max-width: 1366px;
+}
+.center-information{
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+    width: 100vw;
+}
+.anime{
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+.efect-grey{
+    filter: grayscale(100%);
+}
+.owl-dots{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    max-width: 100%;
+    width: 100vw;
+}
+.banner,
+.list-banner,
+.list-banner li{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    max-height: 300px;
+}
+.list-banner li{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner header{
+    left: 1rem;
+    position: absolute;
+    top: 1rem;
+    z-index: 10;
+}
+.banner header a{}
+.banner header a img{
+    opacity: .5;
+    max-width: 60px;
+    width: 100vw;
+}
+.banner header a:hover img{
+    opacity: 1;
+}
+.banner .list-banner{
+    overflow: hidden;
+}
+.banner .list-banner .item-banner{}
+.banner .list-banner .item-banner iframe{
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100vw;
+}
+.content > header{
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.6rem 0;
+}
+[class^="bt-"]{
+    border-radius: .4rem;
+    text-decoration: none;
+}
+.bt-featured{
+    align-items: center;
+    background-color: var(--blue);
+    color: hsla(0, 0%, 100%, 1);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.bt-featured:hover{
+    background-color: var(--blue-hover);
+}
+.content > header .bar-option{
+    align-items: center;
+    background: -moz-linear-gradient(left, rgba(30,87,153,1) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#00ffffff',GradientType=1 );
+    border-radius: .4rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 1.6rem;
+    margin-left: .6rem;
+}
+.content > header .bar-option .user-name{
+    font-weight: bold;
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 1);
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+.content > header .bar-option .list-icons{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: 0;
+}
+.content > header .bar-option .list-icons li a{
+    color: var(--grey);
+    display: flex;
+    font-size: 1.1rem;
+    padding: .8rem;
+    text-decoration: none;
+}
+.content > header .bar-option .list-icons li a:hover{
+    color: var(--purple);
+}
+.content .infos{
+    display: flex;
+    flex-direction: column;
+}
+.content .infos .flag{
+    align-items: flex-start;
+    display: none;
+    justify-content: flex-end;
+}
+.content .infos .flag span{
+    background-color: var(--purple);
+    border-radius: .4rem 0 0 .4rem;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    padding: .8rem 1.4rem;
+}
+.content .location{
+    display: flex;
+    flex-direction: column;
+}
+.content .location .location-txt{
+    display: flex;
+}
+.content .location .location-txt i{
+    color: var(--purple);
+    margin-right: 1rem;
+}
+.content .location .location-txt p{
+    color: var(--grey);
+    font-size: .8rem;
+    letter-spacing: .01rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+.content .location .location-map{
+    display: flex;
+}
+.content .location .location-map iframe{
+    max-width: 100%;
+    width: 100vw;
+}
+.content .download{
+    margin-top: 1.6rem;
+}
+.content .download a{
+    align-items: center;
+    background-color: var(--purple);
+    border-radius: .4rem 0 0 .4rem;
+    color: hsla(0, 0%, 100%, 1);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.content .download a:hover{
+    background-color: var(--purple-hover);
+}
+.content .download a i{
+    margin-right: 1rem;
+}
+.content .download a p{
+    font-size: .8rem;
+    letter-spacing: .01rem;
+}
+.qr{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.6rem 0;
+}
+.qr img{
+    max-width: 120px;
+    width: 100vw;
+}
+.qr p{
+    color: var(--grey);
+    font-size: .9rem;
+    letter-spacing: .01rem;
+    margin-top: .4rem;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+}
+.content .infos .txt{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+}
+.content .infos .txt p{
+    color: var(--grey);
+    font-size: 1rem;
+    letter-spacing: .01rem;
+    margin-bottom: .6rem;
+}
+.content .infos .txt p a{
+    color: var(--purple);
+}
+.flag-desk span{
+    background-color: var(--purple);
+    border-radius: .4rem;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    padding: .8rem 1.4rem;
+}
+@media screen and (max-width: 1366px){
+    .center-content{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .center-information{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 414px){
+    .content{
+        display: flex;
+        margin-top: -26px;
+        z-index: 12;
+    }
+    .content > header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        margin: 0 1.6rem;
+    }
+    .content > header .bar-option{
+        align-items: center;
+        background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(255,255,255,0) 100%);
+        background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(255,255,255,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#00ffffff',GradientType=0 );
+        display: flex;
+        flex-direction: column;
+        margin-top: .6rem;
+        margin-left: 0;
+        padding: 1.6rem 0;
+    }
+    .content > header .bar-option .user-name{
+        -ms-writing-mode: tb-lr; /* old syntax, IE */
+        -webkit-writing-mode: vertical-lr;
+        writing-mode: vertical-lr;
+    }
+    .content > header .bar-option .list-icons{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    .content .infos{
+        /* background-color: lime; */
+        flex: 6;
+    }
+    .content .infos .flag{
+        display: flex;
+    }
+    .flag-desk{
+        display: none;
+    }
+    .content .infos .txt{
+        display: flex;
+        flex-direction: column;
+        margin: 1.6rem 0;
+        padding-right: 1rem;
+    }
+    .content .infos .txt p{
+        color: var(--grey);
+        font-size: 1rem;
+        letter-spacing: .01rem;
+        margin-bottom: .6rem;
+    }
+    .content .infos .txt p a{
+        color: var(--purple);
+    }
+    .block{
+        display: flex;
+        flex-direction: column;
+    }
+}
